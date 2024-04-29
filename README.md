@@ -1,2 +1,25 @@
-# ZE16_32
-Zero-extension unit, 16- to 32-bits
+#### MODULE NAME
+       ZE16_32
+
+#### DEPENDENCIES
+       SameBit
+
+#### INPUTS
+Name | Size(Bits)
+-----|------------
+A   |     16     
+
+#### OUTPUTS
+Name | Size(Bits)
+-----|------------
+Y   |     32     
+
+#### DESCRIPTION
+       Takes  an  16-bit  input A, and outputs the A as a 32-bit value into Y.
+       Works for Two's Complement values.
+
+#### AUTHOR
+       Trevor Cickovski
+
+#### SEE ALSO
+       qms(1), modclone(1)
